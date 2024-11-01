@@ -36,7 +36,8 @@ begin
         elsif S = "10" then
             Out1 <= subt;
         else
-            Out1 <= mult (3 downto 0);                
+            Out1 <= mult (3 downto 0);         
+        end if;       
     end process;
 
 end architecture behavior;
